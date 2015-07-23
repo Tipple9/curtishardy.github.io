@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curtis Hardy - Web Developer</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/icons/favicon.png">
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/jquery.fullscreenBackground.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/smooth-scroller.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#background-image").fullscreenBackground();
+      });
+    </script>
+  </head>
+
+  <body>
+    <!-- navigation -->
+    <div class="nav">
+      <div class="nav-left">CURTIS<bold style="font-weight: 600;">HARDY</bold></div>
+      <ul class="nav-menu">
+        <li>
+          <a href="#home">HOME</a>
+        </li>
+        <li>
+          <a href="#about-target">ABOUT</a>
+        </li>
+        <!-- remove comment to add work tab
+        <li>
+          <a href="#work-target">WORK</a>
+        </li>
+        -->
+        <li>
+          <a href="#skills-target">SKILLS</a>
+        </li>
+        <li>
+          <a href="#contact-target">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+    <div id="home">
+      <div id="background-image">
+        <img src="images/background.jpg" alt="" width="2400" height="1600"/>
+      </div>
+      <!-- slider -->
+      <div class="slider-container">
+        <div class="slider">
+          <section class="cd-intro">
+            <h1 class="cd-headline clip is-full-width">
+              <span>I AM</span>
+              <!-- animated header - these are the words that will change -->
+              <span class="cd-words-wrapper">
+                <b class="is-visible">PASSIONATE</b>
+                <b>DILIGENT</b>
+                <b>COORDINATED</b>
+                <b>PROFESSIONAL</b>
+                <b>DEPENDABLE</b>
+              </span>
+            </h1>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- main content -->
+    <div class="content">
+      <!-- about -->
+      <div id="about-target">clear</div>
+      <div class="about">
+        <div class="about-title">ABOUT ME</div>
+        <div class="about-text">A highly motivated and passionate person who has great interest in the digital world and wants to embrace the change that it is having on the world. My main expertise is located within front-end development, however I also have skills that can be applied to the whole world of digital. If you are interested in what digital can offer you then look no further, I am more than happy to assist you with whatever you require and look to make it as easy as possible for you!</div>
+      </div>
+      <!-- work -->
+      <!-- remove comment to add work to site
+      <div id="work-target">clear</div>
+      <div class="work">
+        <div class="work-title">MY WORK</div>
+      </div>
+      -->
+      <!-- services -->
+      <div id="skills-target">clear</div>
+      <div class="skills">
+        <div class="skills-title">SKILLS</div>
+        <div class="skills-text">
+          <div class="col-container">
+            <div class="col-2"><div class="invis">clear</div></div>
+            <div class="col-3">
+              <div class="skill-detail">HTML5</div>
+              <div class="skill-detail">CSS3</div>
+              <div class="skill-detail">jQuery</div>
+              <div class="skill-detail">Photoshop</div>
+              <div class="skill-detail">PHP</div>
+            </div>
+            <div class="col-2"><div class="invis">clear</div></div>
+            <div class="col-3">
+              <div class="skill-detail">JavaScript</div>
+              <div class="skill-detail">Search Engine Optimisation</div>
+              <div class="skill-detail">After Effects</div>
+              <div class="skill-detail">Social Media Optimisation</div>
+            </div>
+            <div class="col-2"><div class="invis">clear</div></div>
+          </div>
+        </div>
+      </div>
+      <div id="contact-target">clear</div>
+      <div class="contact">
+        <div class="contact-title">CONTACT</div>
+        <div class="contact-text">Interested in learning more? Why not download my CV.<br><a href="cv/cv.docx">Download</a><br><br><br>Want to get in touch? Feel free to contact me via email.<br><a>hardy.curtis@outlook.com</a></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
